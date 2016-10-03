@@ -1,1 +1,45 @@
 1. Introduction to Linux
+
+
+UNIX is the first Operating system in the world, developed by Kem Thompson and Dennis Ritchie in 1969 at Bell Lab by AT&T Company
+            IBM    :           AIX
+            SGI     :           IRIX
+            Sun     :           Solaris
+            Free software foundation organization, they start a project by name GNU. The main aim of this project is to develop such an operating system that can run on any platform.
+    In 1991, a student Linuz Torvalds developed a kernel named Linux’s kernel plus GNU application called Linux operating system.
+Linux is an open source technology.
+Different companies that provide Linux in Market are Redhat, SuSe, Scientific, Centos, and Knoppix etc.
+FEATURES:
+
+
+Ø  Linux is the fastest Operating system in the world. It runs 2 to 3 times fast than windows OS.
+Ø  Linux is the much secured OS because there is no any problem of virus.
+Ø  Linux file format is text format and windows file format is binary format.
+Ø  Linux is very reliable OS because kernel of Linux is very stable as compare to windows kernel not crashed easily.
+Ø  Kernel of Linux is very small in size it can be stored in floppy.
+Ø  Linux uses the x-Window system which is advanced network windowing system. Using this system we can display output of any workstation monitor attached in the network.
+ADVANTAGES:
+
+
+Ø  Virus Proof
+Ø  Crash Proof
+Ø  Economical
+Ø  Multiuser, Multi-Tasking and Multi processing capacity
+
+LOGIN MODES:
+
+
+Two modes:  
+
+1.Text mode (CLI)   - All the commands can be executed    
+
+2.Graphical Mode (GUI)
+Login to Text mode we have use (Ctrl+Alt+F1…..F6, F8….F12) (Ctrl+Alt+F7) for Graphical Mode
+
+
+OPEN SOURCE
+
+       The idea behind Open Source software is rather simple: when programmers can read, distribute and change code, the code will mature. People can adapt it, fix it, debug it, and they can do it at a speed that dwarfs the performance of software developers at conventional companies. This software will be more flexible and of a better quality than software that has been developed using the conventional channels, because more people have tested it in more different conditions than the closed software developer ever can.
+
+        The Open Source initiative started to make this clear to the commercial world, and very slowly, commercial vendors are starting to see the point. While lots of academics and technical people have already been convinced for 20 years now that this is the way to go, commercial vendors needed applications like the Internet to make them realize they can profit from Open Source. Now Linux has grown past the stage where it was almost exclusively an academic system, useful only to a handful of people with a technical background. Now Linux provides more than the operating system: there is an entire infrastructure supporting the chain of effort of creating an operating system, of making and testing programs for it, of bringing everything to the users, of supplying maintenance, updates and support and customizations, etcetera. Today, Linux is ready to accept the challenge of a fast-changing world.
+        
