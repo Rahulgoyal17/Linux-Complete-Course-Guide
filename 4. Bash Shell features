@@ -1,0 +1,100 @@
+4. Bash Shell features
+
+BASH Features
+
+BASH: BOURNE AGAIN SHELL
+
+ when you login to the Server using any CLI based tool OR login to the CLI mode you can see as like below screen. 
+
+$ sign = local user/non-privilege user
+# sign = Administrator/Privileged user
+
+bash Command prompt explanation
+Shells can be changed based the user compatibility and requirements, most of default shell is 'BASH'  
+
+
+shells List
+
+
+Command Line Completion:
+Single Tab – it will provide the best option
+Double Tab – it will provide all the possible options (Autocompletes)
+
+Command Line Editing:
+Ctrl+a            -           It moves cursor to the Home line position
+Ctrl+b            -           Moves the cursor back one character
+Ctrl+c            -           Sends the signal SIGINT to the current task, which aborts and close it.
+Ctrl+d            -           Close current shell prompt
+Ctrl+e            -           It will move a cursor to end of the bash
+Ctrl+f             -           Moves cursor forward one character
+Ctrl+g            -           Abort the research and restore the original file
+Ctrl+h            -           Deletes the previous character (Same as backspace)
+Ctrl+k            -           It is used to delete the command from the courser to line home position
+Ctrl+l             -           Clear the screen
+Ctrl+u            -           Clears the line content before the cursor and copies it into the clipboard
+Ctrl+y            -           Yank the content from the cursor position
+Ctrl+z            -           Sends the signal SIGTSTP to the current task, which suspend it
+Ctrl+Shift+c -           Copy selected text
+Ctrl+Shift+v            -           Paste the copied content
+Ctrl+Shift+t             -           Tab
+Ctrl+Shift+n            -           New Terminal
+Ctrl+Shift+w            -           Close Tab
+Ctrl+Shfift+q           -           Close a Terminal
+Alt+b              -           Moves the cursor backward one word
+Alt+c              -           Capitalizes the character under the cursor and moves to the end of word
+Alt+d              -           Cut the word after the cursor
+Alt+f               -           Moves the cursor forward one word
+Alt+l               -           Lowers the case of every character from the cursor’s position to the end
+Alt+.               -           Insert the last argument to the previous command
+
+Command Line History: Command line history will be saved, when you execute any command in terminal.
+ 
+$ history        -           this command will display all the previous executed commands
+$ history –c   -           Clear the command history
+$ !<number> -          it executes mentioned number command
+Note: Default history size is 1000 commands
+
+history Command Output
+
+
+$ !<charectar>         -           it will display/execute matching character command
+$ !!                              -           it will execute last executed command
+
+Sophisticated prompt control:
+?          -           It will replace a single character
+Example:       rm –rf a?        -           it will delete the files with two characters
+                        Rm –rf a??     -           it will delete the three characters files after “a”
+*          -           replace multiple number of characters
+
+Example:       rm –f  a*        - it will remove all the files which are starting with “a”
+
+Piping and Redirecting:
+
+Redirecting input and output from standard stream to user defined place
+1.    Input RD       -0                                 <         
+2.    Output RD -1              Values        >          Symbols
+3.    Error RD       -2                                 >
+
+Example:       $ sort < <file name>
+                        $ wc < <file name>
+                        $ history > f2
+                        $mkdir d1 2> e1
+
+
+sort Command Output
+
+Piping sending output or one command as a input to the another command 
+
+| pipe
+
+pipe Symbol
+
+
+
+
+Page related command:
+            Less: is used to see the command output page by page in up and down way
+            More: we can’t go upward downward, just see the output fit to the screen
+ 
+
+less and more Command Output
